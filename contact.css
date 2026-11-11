@@ -1,0 +1,9 @@
+.contact-layout{display:grid;grid-template-columns:.9fr 1.1fr;gap:55px;align-items:start}
+.contact-intro h2{margin:0 0 15px;font-size:31px;line-height:1.35}
+.contact-intro p{color:var(--muted);font-size:14px;line-height:1.9}
+.contact-list{display:grid;gap:14px}
+.contact-item{display:flex;align-items:center;gap:17px}
+.contact-icon{display:grid;place-items:center;flex-shrink:0;width:44px;height:44px;border-radius:12px;background:rgba(37,99,235,.18);color:#60a5fa;font-weight:800}
+.contact-item strong{font-size:14px}
+.contact-item p{margin:4px 0 0}
+@media(max-width:700px){.contact-layout{grid-template-columns:1fr;gap:25px}.contact-intro h2{font-size:26px}}

@@ -1,0 +1,10 @@
+.skill-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.skill-card{min-height:230px}
+.skill-icon{display:grid;place-items:center;width:45px;height:45px;margin-bottom:17px;border-radius:11px;background:rgba(37,99,235,.18);color:#60a5fa;font-weight:800;font-size:13px}
+.office-section{background:#17191d}
+.office-layout{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:35px}
+.office-layout h2{margin:0 0 10px;font-size:30px}
+.office-layout p{color:var(--muted);font-size:14px;line-height:1.8}
+.office-layout .tag-list{margin:0}
+@media(max-width:850px){.skill-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:580px){.skill-grid,.office-layout{grid-template-columns:1fr}}

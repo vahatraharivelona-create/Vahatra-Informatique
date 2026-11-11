@@ -1,0 +1,4 @@
+.activity-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.activity-number{display:grid;place-items:center;width:42px;height:42px;margin-bottom:18px;border-radius:10px;background:var(--blue);font-size:12px;font-weight:800}
+.activity-grid h2{font-size:19px;margin:0 0 10px}
+@media(max-width:750px){.activity-grid{grid-template-columns:1fr}}

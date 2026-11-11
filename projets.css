@@ -1,0 +1,6 @@
+.project-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.project-card{min-height:260px}
+.project-category{display:block;margin-bottom:15px;color:var(--blue-light);font-size:10px;font-weight:800;letter-spacing:1.3px}
+.project-card h2{margin:0 0 12px;font-size:21px;line-height:1.4}
+.project-card p{line-height:1.9}
+@media(max-width:650px){.project-grid{grid-template-columns:1fr}}
